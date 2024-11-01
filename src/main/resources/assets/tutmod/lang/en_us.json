@@ -1,0 +1,12 @@
+{
+  "item.tutmod.raw_uranium": "Raw uranium",
+  "item.tutmod.uranium_detector": "Uranium detector",
+  "item.tutmod.uranium_ingot": "Uranium ingot, Yum!",
+  "block.tutmod.uranium_ore": "Uranium ore YIPPIE",
+  "block.tutmod.uranium_block": "Uranium block :33333",
+  "creativetab.uranium_tab": "Epic uranium tab :3",
+  "block.tutmod.weird_block": "Very fucking weird block. I'd be careful around it if I was you...",
+  "item.tutmod.uranium_fuel": "This is a uranium fuel ingot, it lasts so long that by the time it has run out the universe would've collapsed",
+  "tooltip.tutmod.uranium_detector.tooltip": "This scans under where you click to see if there's uranium under",
+  "tooltip.tutmod.weird_block.tooltip": "It scares me. The amount of souls trapped is... beyond our capable minds of understanding"
+}
