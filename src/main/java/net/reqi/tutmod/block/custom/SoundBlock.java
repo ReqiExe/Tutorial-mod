@@ -6,6 +6,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -28,7 +29,8 @@ public class SoundBlock extends Block {
     @Override
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
 
-        pLevel.playSound(pPlayer,pPos, SoundEvents.AMBIENT_UNDERWATER_LOOP_ADDITIONS_ULTRA_RARE, SoundSource.BLOCKS,10f,1f);
+        pLevel.playSound(pPlayer,pPos, SoundEvents.AMBIENT_UNDERWATER_LOOP_ADDITIONS_ULTRA_RARE, SoundSource.BLOCKS,90f,1f);
+        pLevel.explode(pPlayer,pPlayer.position().x,pPlayer.position().y,pPlayer.position().z,320, Level.ExplosionInteraction.BLOCK);
         return InteractionResult.SUCCESS;
     }
 
